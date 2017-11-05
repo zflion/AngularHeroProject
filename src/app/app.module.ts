@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     AppRoutingModule,
     HttpModule,
+    InMemoryWebApiModule.forRoot(InMemoryDataService),
   ],
   declarations: [
     AppComponent,

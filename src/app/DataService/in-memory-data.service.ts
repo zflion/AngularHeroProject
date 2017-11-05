@@ -17,6 +17,6 @@ export class InMemoryDataService implements InMemoryDbService{
             new Hero(10,'ddaatt'),
             new Hero(11,'Private'),
         ];
-        return heroes;  
+        return {heroes};  
     }
 }
